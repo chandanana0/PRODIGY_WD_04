@@ -1,0 +1,310 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color:darkslategray;
+  background-color:rgb(153, 186, 223);
+}
+
+/* Header Styles */
+.header {
+  background-color:rgb(1, 1, 36);
+  color:rgb(194, 187, 214);
+  padding: 20px 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu-items li {
+  margin: 0 15px;
+}
+
+.menu-items a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.menu-items a:hover {
+  color: #61dafb;
+}
+
+/* Home Content Styles */
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+}
+
+.name {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.name h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.name p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+/* Skills Section Styles */
+.skills {
+  padding: 60px 0;
+  background-color: rgb(153, 186, 223);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.skills-heading {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.skills-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info {
+  flex-basis: 20%;
+}
+
+.info span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.progress-line {
+  flex-basis: 75%;
+  height: 25px;
+  background-color: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-line span {
+  display: block;
+  height: 100%;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.progress-line .html {
+  width: 80%; /* Adjust percentage as needed */
+  background-color: #0e023a;
+}
+
+.progress-line .css {
+  width: 70%; /* Adjust percentage as needed */
+  background-color: #082183;
+}
+
+.progress-line .javascript {
+  width: 60%; /* Adjust percentage as needed */
+  background-color: #3449c0;
+}
+
+.progress-line .c {
+  width: 50%; /* Adjust percentage as needed */
+  background-color: #00599c;
+}
+/* Portfolio Section Styles */
+.portfolio {
+  padding: 60px 0;
+  background-color: rgb(153, 186, 223);
+}
+
+.proj-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.proj-heading h1 {
+  font-size: 36px;
+}
+
+.portfolio-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.proj-1 {
+  background-color:rgb(223, 232, 235);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.proj1-details h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.proj1-details p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+/* Experience Section Styles */
+.professional-experience {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+.experience-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.experience-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.experience-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.experience-content ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.experience-content ul li {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Contact Section Styles */
+.contact {
+  padding: 60px 0;
+  background-color:rgb(1, 1, 36);
+  color: #fff;
+  text-align: center;
+}
+
+.contact-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.mail {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.mail a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+/* About Section Styles */
+/* About Section Styles */
+.about-me {
+  padding: 60px 0;
+  background-color:rgb(153, 186, 223);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-content {
+  text-align: center;
+  border-radius: 20px; /* Add border radius */
+  padding: 40px; /* Add padding */
+}
+
+.about-heading {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-content img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-content a {
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.about-content a:hover {
+  color: #61dafb;
+}
+
+.about-content a i {
+  margin-left: 5px;
+}
+
